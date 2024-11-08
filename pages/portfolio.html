@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Meu Portfólio</a>
+                <a class="navbar-brand" href="../index.html">DevFolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,8 +36,163 @@
     </header>
     <main class="container mt-5">
         <section>
-            <h1>Portfólio</h1>
-            <p>Galeria de projetos com links e detalhes.</p>
+            <h1 class="text-center mb-4">Portfólio</h1>
+            <div class="row">
+                <div class="col-md-6 mb-4 mt-2">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://github.com/HUMAP-FireAlert.png" class="card-img-top project-img"
+                            alt="HUMAP Fire Alert">
+                        <div class="card-body">
+                            <h5 class="card-title">HUMAP Fire Alert</h5>
+                            <p class="card-text">Sistema de Alerta Emergencial para o Hospital Universitário da UFMS.
+                                Auxilia a brigada de incêndio e melhora a segurança em emergências hospitalares.</p>
+                            <p><strong>Tecnologias Utilizadas:</strong></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="tecnologias.html#flutter" class="badge bg-primary"
+                                        target="_blank">Flutter</a></li>
+                                <li class="list-inline-item"><a href="tecnologias.html#firebase"
+                                        class="badge bg-primary" target="_blank">Firebase</a></li>
+                                <li class="list-inline-item"><a href="tecnologias.html#nodejs" class="badge bg-primary"
+                                        target="_blank">Node.js</a></li>
+                                <li class="list-inline-item"><a href="tecnologias.html#express" class="badge bg-primary"
+                                        target="_blank">Express</a></li>
+                                <li class="list-inline-item"><a href="tecnologias.html#prisma" class="badge bg-primary"
+                                        target="_blank">Prisma</a></li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-12 col-md-6 mb-2">
+                                    <a href="https://github.com/HUMAP-FireAlert" class="btn btn-outline-dark w-100"
+                                        target="_blank">
+                                        <i class="bi bi-github"></i> Repositório
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-6 mb-2">
+                                    <a href="https://drive.google.com/file/d/11DtgxT4Okif15uVsEj8ZQR1ezH0InjcN/view?usp=sharing"
+                                        class="btn btn-outline-primary w-100" target="_blank">
+                                        <i class="bi bi-box-arrow-up-right"></i> Visualizar Projeto
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="accordion mt-3" id="accordionFireAlert">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFireAlert">
+                                        <button class="accordion-button collapsed text-primary" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFireAlert"
+                                            aria-expanded="false" aria-controls="collapseFireAlert">
+                                            Mais Detalhes
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFireAlert" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFireAlert" data-bs-parent="#accordionFireAlert">
+                                        <div class="accordion-body">
+                                            <p>O HUMAP Fire Alert é um aplicativo desenvolvido para o Hospital
+                                                Universitário Maria Aparecida Pedrossian (HUMAP-UFMS) com o objetivo de
+                                                auxiliar a brigada de incêndio e melhorar a segurança em emergências
+                                                hospitalares. O sistema permite o rápido acionamento e direcionamento de
+                                                recursos para brigadistas, promovendo uma resposta ágil e organizada em
+                                                situações de incêndio e outras urgências, otimizando a comunicação e o
+                                                tempo de resposta, e minimizando potenciais danos.</p>
+                                            <h6 class="text-primary">Principais Funcionalidades</h6>
+                                            <ul>
+                                                <li>Cadastro de Brigadistas</li>
+                                                <li>Criação e Gerenciamento de Ocorrências</li>
+                                                <li>Disparo de Alertas Internos e Alarmes Gerais</li>
+                                                <li>Listagem e Acompanhamento de Ocorrências</li>
+                                            </ul>
+                                            <h6 class="text-primary">Minha Atuação</h6>
+                                            <ul>
+                                                <li>Condução do Processo de Descoberta do Produto</li>
+                                                <li>Prototipação de Baixa e Alta Fidelidade</li>
+                                                <li>Gerenciamento do Projeto</li>
+                                                <li>Desenvolvimento do App Mobile</li>
+                                                <li>Colaboração Multidisciplinar</li>
+                                            </ul>
+                                            <h6 class="text-primary">Resultados</h6>
+                                            <p>O HUMAP Fire Alert foi implementado com sucesso, demonstrando sua
+                                                eficácia em reduzir o tempo de resposta em emergências, aumentando a
+                                                segurança dos pacientes, funcionários e visitantes do HUMAP.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4 mt-2">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../assets/images/to-do.png" class="card-img-top project-img" alt="To-do List">
+                        <div class="card-body">
+                            <h5 class="card-title">To-do List</h5>
+                            <p class="card-text">Projeto desenvolvido como trabalho final da disciplina de ProgWeb na
+                                faculdade. O sistema permite a criação, gerenciamento e acompanhamento de tarefas.</p>
+                            <p><strong>Tecnologias Utilizadas:</strong></p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="tecnologias.html#react" class="badge bg-primary"
+                                        target="_blank">React</a></li>
+                                <li class="list-inline-item"><a href="tecnologias.html#firebase"
+                                        class="badge bg-primary" target="_blank">Firebase</a></li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-12 col-md-6 mb-2">
+                                    <a href="https://github.com/paulosreis/todo-list" class="btn btn-outline-dark w-100"
+                                        target="_blank">
+                                        <i class="bi bi-github"></i> Repositório
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-6 mb-2">
+                                    <a href="https://trab-todo-list.netlify.app/" class="btn btn-outline-primary w-100"
+                                        target="_blank">
+                                        <i class="bi bi-box-arrow-up-right"></i> Visualizar Projeto
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="accordion mt-3" id="accordionTodoList">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTodoList">
+                                        <button class="accordion-button collapsed text-primary" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTodoList"
+                                            aria-expanded="false" aria-controls="collapseTodoList">
+                                            Mais Detalhes
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTodoList" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTodoList" data-bs-parent="#accordionTodoList">
+                                        <div class="accordion-body">
+                                            <p>O To-do List é um projeto desenvolvido como trabalho final da disciplina
+                                                de
+                                                ProgWeb na faculdade. O sistema permite a criação, gerenciamento e
+                                                acompanhamento de tarefas, com autenticação e banco de dados em tempo
+                                                real
+                                                utilizando Firebase.</p>
+                                            <h6 class="text-primary">Principais Funcionalidades</h6>
+                                            <ul>
+                                                <li>Criação de Tarefas</li>
+                                                <li>Gerenciamento de Tarefas</li>
+                                                <li>Acompanhamento de Tarefas em Tempo Real</li>
+                                                <li>Autenticação de Usuários</li>
+                                            </ul>
+                                            <h6 class="text-primary">Minha Atuação</h6>
+                                            <ul>
+                                                <li>Design do Sistema</li>
+                                                <li>Implementação do Frontend com React</li>
+                                                <li>Configuração do Firebase para Autenticação e Banco de Dados</li>
+                                                <li>Testes e Validação</li>
+                                            </ul>
+                                            <h6 class="text-primary">Resultados</h6>
+                                            <p>O To-do List foi implementado com sucesso, permitindo aos usuários
+                                                gerenciar
+                                                suas tarefas de forma eficiente e acompanhar o progresso em tempo real.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="bg-dark text-white text-center py-3">

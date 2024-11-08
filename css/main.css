@@ -13,6 +13,10 @@ h1 {
     margin-bottom: 1rem;
 }
 
+h5 {
+    font-weight: bold;
+}
+
 .lead {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
@@ -87,6 +91,19 @@ footer {
     left: 55%;
 }
 
+.project-img {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.action-button {
+    width: 4rem;
+    height: 4rem;
+    bottom: 4rem;
+    right: 10rem;
+
+}
+
 @media (max-width: 768px) {
     .navbar-nav {
         text-align: center;
@@ -145,4 +162,12 @@ footer {
     .timeline-item:nth-child(even) .timeline-content {
         left: 20%;
     }
+
+    .action-button {
+        bottom: 1rem;
+        right: 1rem;
+
+    }
+
+
 }
