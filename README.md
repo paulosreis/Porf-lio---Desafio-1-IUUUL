@@ -2,6 +2,12 @@
 
 Este repositório contém uma aplicação web básica de portfólio desenvolvida como parte do programa de residência em software IUUUL. A aplicação apresenta informações sobre a formação, atuação profissional, projetos e formas de contato do desenvolvedor.
 
+## Projeto no GitHub (kanban)
+
+Você pode acompanhar o progresso do projeto no GitHub Projects através do seguinte link:
+
+- [GitHub Projects - DevFolio](https://github.com/users/paulosreis/projects/10)
+
 ## Índice
 
 - [DevFolio](#devfolio)
