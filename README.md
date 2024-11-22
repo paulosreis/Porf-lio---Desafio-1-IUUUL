@@ -1,10 +1,10 @@
-# Portfólio - Desafio 1 IUUUL
+# DevFolio
 
 Este repositório contém uma aplicação web básica de portfólio desenvolvida como parte do programa de residência em software IUUUL. A aplicação apresenta informações sobre a formação, atuação profissional, projetos e formas de contato do desenvolvedor.
 
 ## Índice
 
-- [Portfólio - Desafio 1 IUUUL](#portfólio---desafio-1-iuuul)
+- [DevFolio](#devfolio)
   - [Índice](#índice)
   - [Visão Geral](#visão-geral)
   - [Funcionalidades](#funcionalidades)
@@ -24,6 +24,9 @@ A aplicação de portfólio foi desenvolvida com o objetivo de apresentar de for
 - **Atuação Profissional:** Lista as experiências profissionais do desenvolvedor.
 - **Portfólio:** Exibe os projetos desenvolvidos pelo desenvolvedor.
 - **Contato:** Fornece informações de contato e um formulário para envio de mensagens.
+- **Armazenamento de Mensagens de Contato:** As informações submetidas através do formulário de contato são armazenadas no local storage.
+- **Página de Listagem de Mensagens Recebidas:** Exibe as mensagens armazenadas em uma página separada, com opções para remover mensagens individuais ou todas as mensagens.
+
 
 ## Tecnologias Utilizadas
 
@@ -50,6 +53,7 @@ porfolio-desafio1-iuuul/
 │ ├── portfolio.html 
 │ └── contato.html 
 │ └── tecnologias.html
+│ └── mensagens.html
 ├── index.html 
 └── README.md
 
@@ -59,11 +63,11 @@ Para executar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório para o seu computador:
    ```bash
-   git clone https://github.com/seu-usuario/porfolio-desafio1-iuuul.git
+   git clone https://github.com/seu-usuario/paulosreis.github.io.git
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd portfolio-desafio1-iuuul
+   cd paulosareis.github.io
    ```
 
    3. Abra o arquivo `index.html` no seu navegador preferido.
